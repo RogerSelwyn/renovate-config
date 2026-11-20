@@ -12,7 +12,7 @@
 
   "packageRules": [
     {
-      "matchPackageNames": ["ruff", "github/codeql-action"],
+      "matchPackageNames": ["ruff", "github/codeql-action", "astral-sh/setup-uv"],
       "automerge": true
     }
   ]
