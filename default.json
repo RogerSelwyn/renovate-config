@@ -12,7 +12,7 @@
 
   "packageRules": [
     {
-      "matchPackageNames": ["ruff"],
+      "matchPackageNames": ["ruff", "github/codeql-action"],
       "automerge": true
     }
   ]
