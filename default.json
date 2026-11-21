@@ -12,7 +12,12 @@
 
   "packageRules": [
     {
-      "matchPackageNames": ["ruff", "github/codeql-action", "astral-sh/setup-uv"],
+      "matchPackageNames": [
+        "ruff", 
+        "github/codeql-action", 
+        "astral-sh/setup-uv", 
+        "pytest-homeassistant"
+      ],
       "automerge": true
     }
   ]
